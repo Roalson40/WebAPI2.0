@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\JetBrainsRider\\WebAPI2.0\\WebAPI2.0\\WebAPI2.0.csproj": {}
+  },
+  "projects": {
+    "D:\\JetBrainsRider\\WebAPI2.0\\WebAPI2.0\\WebAPI2.0.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\JetBrainsRider\\WebAPI2.0\\WebAPI2.0\\WebAPI2.0.csproj",
+        "projectName": "WebAPI2.0",
+        "projectPath": "D:\\JetBrainsRider\\WebAPI2.0\\WebAPI2.0\\WebAPI2.0.csproj",
+        "packagesPath": "C:\\Users\\Chenben Tong\\.nuget\\packages\\",
+        "outputPath": "D:\\JetBrainsRider\\WebAPI2.0\\WebAPI2.0\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Chenben Tong\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
