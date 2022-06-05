@@ -31,7 +31,7 @@ namespace WebAPI2._0.Impl
             return newToy.Entity;
         }
 
-        public async Task<List<Child>> GetChildren()
+        public async Task<IList<Child>> GetChildren()
         {
             return await KinderGartenContext.Children.ToListAsync();
         }
@@ -45,7 +45,7 @@ namespace WebAPI2._0.Impl
         {
             try
             {
-                Toy toy = await KinderGartenContext.Toys.FirstAsync(toys => toys.Id == Id);
+                Toy toy = await KinderGartenContext.Toys.FirstAsync(toy1 => toy1.Id == Id);
                 KinderGartenContext.Toys.Remove(toy);
                 await KinderGartenContext.SaveChangesAsync();
             }
